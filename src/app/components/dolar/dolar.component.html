@@ -1,0 +1,32 @@
+<div class="card">
+    <img class="dolar" src="../assets/images/background/dolar.jpg" alt="Card image cap">
+    <div class="card-img-overlay" style="height:90px;">
+        <h1 class="card-title text-white m-b-0 dl">Dolar</h1> <br>
+        <small class="card-text text-white">
+          Cotizacion de DB
+        </small>
+    </div>
+    <div class="card-body weather-small" >
+        <div class="row">
+            <div class="col-12 b-r align-self-center">
+                <div class="d-flex">
+                    <div class="display-6 text-info"><i class="ti-pulse"></i></div>
+                    <div class="m-l-20" *ngIf="dolar">
+                        <h2 class="font-light text-info m-b-0">
+                          usd {{ dolar.dolar }}
+                          <!-- <sup>0</sup> -->
+                        </h2>
+                        <small> 
+                          Update Date: {{ dolar.created_at | amFromUnix  | amDateFormat: 'DD-MM-YYYY'}} 
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-4 text-center">
+                <h2 class="font-light m-b-0">25<sup>0</sup></h2>
+                <small>Tonight</small>
+            </div> -->
+        </div>
+    </div>
+</div>
+

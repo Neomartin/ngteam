@@ -355,7 +355,7 @@ html body .vb {
 }
 
 .op-5 {
-    opacity: 0.5
+    opacity: 0.75
 }
 
 html body .font-bold {
@@ -1568,12 +1568,12 @@ html body .waves-notransition {
         opacity: 0.1
     }
     50% {
-        -moz-transform: scale(0.5);
+        -moz-transform: scale(0.75);
         opacity: 0.3
     }
     75% {
         -moz-transform: scale(0.8);
-        opacity: 0.5
+        opacity: 0.75
     }
     to {
         -moz-transform: scale(1);
@@ -1591,12 +1591,12 @@ html body .waves-notransition {
         opacity: 0.1
     }
     50% {
-        -webkit-transform: scale(0.5);
+        -webkit-transform: scale(0.75);
         opacity: 0.3
     }
     75% {
         -webkit-transform: scale(0.8);
-        opacity: 0.5
+        opacity: 0.75
     }
     to {
         -webkit-transform: scale(1);
@@ -1839,8 +1839,8 @@ form label {
 .topbar {
     position: relative;
     z-index: 50;
-    -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5)
+    -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.75)
 }
 
 .topbar .top-navbar {
@@ -2016,7 +2016,7 @@ form label {
 
 .page-titles {
     background: #ffffff;
-    margin: 0 -30px 15px;
+    margin: 0 -15px 15px;
     padding: 7px;
     -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
     box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1)
@@ -2262,12 +2262,12 @@ ul#themecolors li a.working:before {
 
 .green-dark-theme {
     background: #263238;
-    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #26c6da 23%, #26c6da 99%);
-    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #00c292 23%, #26c6da 99%);
-    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #26c6da), color-stop(99%, #26c6da));
-    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #26c6da 23%, #26c6da 99%);
-    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #26c6da 23%, #26c6da 99%);
-    background: linear-gradient(to right, #263238 0%, #263238 23%, #26c6da 23%, #26c6da 99%)
+    background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #da2626 23%, #da2626 99%);
+    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #00c292 23%, #da2626 99%);
+    background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #da2626), color-stop(99%, #da2626));
+    background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #da2626 23%, #da2626 99%);
+    background: -o-linear-gradient(left, #263238 0%, #263238 23%, #da2626 23%, #da2626 99%);
+    background: linear-gradient(to right, #263238 0%, #263238 23%, #da2626 23%, #da2626 99%)
 }
 
 .yellow-dark-theme {
@@ -2742,7 +2742,7 @@ html body #visitor .c3-chart-arcs-title {
 
 .usage .ct-series-a .ct-line {
     stroke-width: 3px;
-    stroke: rgba(255, 255, 255, 0.5)
+    stroke: rgba(255, 255, 255, 0.75)
 }
 
 .total-sales {
@@ -3047,7 +3047,7 @@ html body #visitor .c3-chart-arcs-title {
 }
 
 .floating-labels .form-control {
-    padding: 10px 10px 10px 0;
+    padding: 10px 10px 10px;
     display: block;
     border: none;
     font-family: "Poppins", sans-serif;
@@ -3135,7 +3135,7 @@ html body #visitor .c3-chart-arcs-title {
     top: 25%;
     left: 0;
     pointer-events: none;
-    opacity: 0.5
+    opacity: 0.75
 }
 
 .floating-labels .input-lg, .floating-labels .input-lg~label {
@@ -3824,7 +3824,7 @@ table.dataTable thead .sorting:after {
     font-family: "Font Awesome 5 Free"!important;
     font-weight: 900;
     cursor: pointer;
-    color: rgba(50, 50, 50, 0.5)
+    color: rgba(50, 50, 50, 0.75)
 }
 
 .dataTables_wrapper .dataTables_paginate {
@@ -6142,25 +6142,25 @@ table.footable thead tr.footable-filtering th ul.dropdown-menu li a.checkbox inp
 
 @-webkit-keyframes blow {
     0% {
-        -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
         opacity: 1;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
     50% {
-        -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3);
         opacity: 1;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
     to {
-        -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3);
         opacity: 0;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
 }
 
@@ -6169,22 +6169,22 @@ table.footable thead tr.footable-filtering th ul.dropdown-menu li a.checkbox inp
         -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
         opacity: 1;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
     50% {
         -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
         opacity: 1;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
     to {
         -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
         opacity: 0;
-        -webkit-transform: scale3d(1, 1, 0.5);
-        transform: scale3d(1, 1, 0.5)
+        -webkit-transform: scale3d(1, 1, 0.75);
+        transform: scale3d(1, 1, 0.75)
     }
 }
 
@@ -6202,7 +6202,7 @@ table.footable thead tr.footable-filtering th ul.dropdown-menu li a.checkbox inp
     color: #ffffff!important;
     width: 100%;
     padding: 6px 30px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     display: block
 }
 
@@ -8009,9 +8009,9 @@ table.footable thead tr.footable-filtering th ul.dropdown-menu li a.checkbox inp
 }
 
 [type=radio].with-gap:checked+label:after {
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5)
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75)
 }
 
 [type=radio].tabbed:focus+label:before {
@@ -9143,7 +9143,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-red {
-    background-color: rgba(251, 58, 58, 0.5)
+    background-color: rgba(251, 58, 58, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-red:after {
@@ -9156,7 +9156,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-pink {
-    background-color: rgba(233, 30, 99, 0.5)
+    background-color: rgba(233, 30, 99, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-pink:after {
@@ -9169,7 +9169,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-purple {
-    background-color: rgba(116, 96, 238, 0.5)
+    background-color: rgba(116, 96, 238, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-purple:after {
@@ -9182,7 +9182,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-deep-purple {
-    background-color: rgba(103, 58, 183, 0.5)
+    background-color: rgba(103, 58, 183, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-deep-purple:after {
@@ -9195,7 +9195,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-indigo {
-    background-color: rgba(63, 81, 181, 0.5)
+    background-color: rgba(63, 81, 181, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-indigo:after {
@@ -9208,7 +9208,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-blue {
-    background-color: rgba(2, 190, 201, 0.5)
+    background-color: rgba(2, 190, 201, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-blue:after {
@@ -9221,7 +9221,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-light-blue {
-    background-color: rgba(3, 169, 244, 0.5)
+    background-color: rgba(3, 169, 244, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-light-blue:after {
@@ -9234,7 +9234,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-cyan {
-    background-color: rgba(0, 188, 212, 0.5)
+    background-color: rgba(0, 188, 212, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-cyan:after {
@@ -9247,7 +9247,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-teal {
-    background-color: rgba(0, 150, 136, 0.5)
+    background-color: rgba(0, 150, 136, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-teal:after {
@@ -9260,7 +9260,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-green {
-    background-color: rgba(38, 198, 218, 0.5)
+    background-color: rgba(38, 198, 218, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-green:after {
@@ -9273,7 +9273,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-light-green {
-    background-color: rgba(139, 195, 74, 0.5)
+    background-color: rgba(139, 195, 74, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-light-green:after {
@@ -9286,7 +9286,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-lime {
-    background-color: rgba(205, 220, 57, 0.5)
+    background-color: rgba(205, 220, 57, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-lime:after {
@@ -9299,7 +9299,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-yellow {
-    background-color: rgba(255, 232, 33, 0.5)
+    background-color: rgba(255, 232, 33, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-yellow:after {
@@ -9312,7 +9312,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-amber {
-    background-color: rgba(255, 193, 7, 0.5)
+    background-color: rgba(255, 193, 7, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-amber:after {
@@ -9325,7 +9325,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-orange {
-    background-color: rgba(255, 152, 0, 0.5)
+    background-color: rgba(255, 152, 0, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-orange:after {
@@ -9338,7 +9338,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-deep-orange {
-    background-color: rgba(255, 87, 34, 0.5)
+    background-color: rgba(255, 87, 34, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-deep-orange:after {
@@ -9351,7 +9351,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-brown {
-    background-color: rgba(121, 85, 72, 0.5)
+    background-color: rgba(121, 85, 72, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-brown:after {
@@ -9364,7 +9364,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-grey {
-    background-color: rgba(158, 158, 158, 0.5)
+    background-color: rgba(158, 158, 158, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-grey:after {
@@ -9377,7 +9377,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-blue-grey {
-    background-color: rgba(96, 125, 139, 0.5)
+    background-color: rgba(96, 125, 139, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-blue-grey:after {
@@ -9390,7 +9390,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-black {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-black:after {
@@ -9403,7 +9403,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever:after, input[type=checkb
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-white {
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: rgba(255, 255, 255, 0.75)
 }
 
 .switch label input[type=checkbox]:checked+.lever.switch-col-white:after {
