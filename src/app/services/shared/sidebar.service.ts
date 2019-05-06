@@ -9,7 +9,8 @@ export class SidebarService {
       title: 'Home',
       icon: 'mdi mdi-home',
       submenu: [
-        { title: 'Dashboard', url: '/dashboard' }
+        { title: 'Dashboard', url: '/dashboard' },
+        { title: 'Rxjs', url: '/rxjs' }
       ]
     },
     {
@@ -18,16 +19,18 @@ export class SidebarService {
       submenu: [
         { title: 'Añadir', url: '/add-product' },
         { title: 'Modificar', url: '/edit-product' },
-        { title: 'Presupuestar', url: '/hola-product' }
+        { title: 'Presupuestar', url: '/hola-product' },
+        
       ]
     },
     {
       title: 'User',
       icon: 'mdi mdi-account',
       submenu: [
-        { title: 'Perfil', url: '/user-profile' }
+        { title: 'Perfil', url: '/user-profile' },
+        { title: 'Register', url: '/register' }
       ]
-    }
+    },
   ]
   constructor() { }
 }

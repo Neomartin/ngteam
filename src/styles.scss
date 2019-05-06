@@ -7,3 +7,6 @@
 .theme-picker {
     cursor: pointer;
 }
+.capitalize > p::first-letter {
+    text-transform: capitalize;
+}

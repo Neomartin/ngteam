@@ -6,12 +6,16 @@ import { SharedModule } from '../shared/shared.module';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PAGES_ROUTES } from './pages.routes';
 import { ComponentsModule } from '../components/components.module';
+import { RxjsComponent } from './rxjs/rxjs.component';
+import { RegisterComponent } from '../login/register.component';
 
 @NgModule({
     declarations: [
         PagesComponent,
         DashboardComponent,
-        NotfoundComponent
+        NotfoundComponent,
+        RxjsComponent,
+        RegisterComponent
     ],
     imports: [
         FormsModule,
@@ -20,9 +24,11 @@ import { ComponentsModule } from '../components/components.module';
         PAGES_ROUTES
     ],
     exports: [
+        RegisterComponent,
         PagesComponent,
         DashboardComponent,
-        NotfoundComponent
+        NotfoundComponent,
+        FormsModule
     ],
     providers: [],
 })

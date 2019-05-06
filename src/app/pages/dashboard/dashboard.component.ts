@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Dolar } from 'src/app/models/dolar';
+declare function dashboard();
 
 @Component({
   selector: 'app-dashboard',
@@ -8,10 +9,15 @@ import { Dolar } from 'src/app/models/dolar';
 export class DashboardComponent implements OnInit {
   dolar: Dolar;
   loaded: Boolean = true;
-  constructor() { }
+  constructor() {
 
-  ngOnInit() {
-    console.log('Dashboard component loaded...');
   }
 
+  ngOnInit() {
+    dashboard();
+    console.log('Dashboard component loaded...');
+  }
+  openSwal() {
+
+  }
 }
